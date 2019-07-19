@@ -1,0 +1,21 @@
+{
+  "name": "iris-time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config ./bin/run.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "superagent": "^5.0.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "iris",
+  "version": "1.0.0",
+  "description": "First Microservice application",
+  "main": "server/service.js",
+  "scripts": {
+    "start": "node -r dotenv/config ./bin/run.js"
+  },
+  "author": "Siddharth Ashri",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/events-api": "^2.2.0",
+    "@slack/rtm-api": "^5.0.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "superagent": "^5.0.5"
+  }
+}
