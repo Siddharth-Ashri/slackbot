@@ -11,8 +11,10 @@
   "dependencies": {
     "@slack/events-api": "^2.2.0",
     "@slack/rtm-api": "^5.0.1",
-    "dotenv": "^8.0.0",
-    "express": "^4.16.4",
-    "superagent": "^5.0.5"
+    "express": "^4.17.1",
+    "superagent": "^5.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0"
   }
 }
